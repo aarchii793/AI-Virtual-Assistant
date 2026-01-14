@@ -10,7 +10,7 @@
  import authBg from "../assets/authBg.png"
 import { LuImagePlus } from "react-icons/lu";
 import { useRef } from 'react'
-import { userDataContext } from '../context/userContext'
+import { userDataContext } from '../context/UserContext'
 import { useNavigate } from 'react-router-dom'
 import { IoArrowBackOutline } from "react-icons/io5";
  
