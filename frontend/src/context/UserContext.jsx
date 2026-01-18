@@ -11,7 +11,7 @@ const [backendImage, setBackendImage] = useState(null)
 const [selectedImage , setSelectedImage] = useState(null)
 
 
-    const serverUrl = "http://localhost:8000"
+    const serverUrl = import.meta.env.VITE_SERVER_URL || "http://localhost:8000"
     const [userData, setUserData] = useState(null)
 
     const handleCurrentUser = async () => {
